@@ -16,6 +16,11 @@ public class DemoApplicationTests {
 	}
 
 	@Test
+	public void myTest() {
+		assertTrue(true);
+	}
+
+	@Test
 	public void calculate_methods_first_param_should_not_be_null() throws Exception {
 		try {
 			DemoApplication.additionner(null,2);
